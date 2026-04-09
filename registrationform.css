@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: skyblue;
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+body .p-container{
+    width: 50%;
+    height: 65%;
+    background-color: aliceblue;
+    border: 5px solid rgb(4, 99, 84);
+    border-radius: 20px;
+    box-shadow:20px 5px 25px rgb(60, 223, 210);
+}
+
+body .p-container form h1{
+    text-align: center;
+    font-weight: bolder;
+    background: linear-gradient(90deg,green,lightgreen);
+    background-clip: text;
+    color: transparent;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-size: xx-large;
+}
+body .p-container .container{
+    margin-bottom: 35px;
+    padding-left: 75px;
+    font-size:larger;
+}
+.p-container  form .container input{
+    width: 350px;
+    height: 40px;
+}
+.p-container form .container .l1,.l3,.l4
+{
+    padding-right: 15px;
+}
+.p-container form .container .l2
+{
+    padding-right: 58px;
+}
+
+.p-container form .container .l1,.l2,.l3,.l4{
+    color: rgb(122, 17, 17);
+    font-weight: 900;
+    width: 180px;
+}
+.p-container form .btn{
+    margin-left: 325px;
+    height: 40px;
+    width: 150px;
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.p-container form .btn:hover{
+    transform: translateY(10px);
+    box-shadow: 10px 10px 20px rgb(9, 125, 113);
+}
